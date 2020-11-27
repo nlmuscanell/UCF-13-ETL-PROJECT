@@ -1,12 +1,12 @@
 # Final Report - Fast-food Nutritional Database
 
-##Project Members: Kathy Manthey, Manuela Muñoz, Nicole Muscanell
+#Project Members: Kathy Manthey, Manuela Muñoz, Nicole Muscanell
 
-##Purpose:
+#Purpose:
 
 The purpose of this project was to extract, transform, and load into a final relational database information about food nutrition for several national (U.S.) fast food chains. The main question that the database could be used to answer is "What is the nutritional content or value of specific food items at fast food restaurants?". The database could further be used to compare nutritional values between the restaurants in the database. We will focus on three major fast-food restaurants: McDonalds, Subway, and Starbucks. The final production database is relational.
 
-##Extraction Process
+#Extraction Process
 
 We downloaded three csv files from kaggle:
 
@@ -15,7 +15,7 @@ Nutrition data for Subway: https://www.kaggle.com/davinm/subway-restaurant-nutri
 Nutrition data for Starbucks: https://www.kaggle.com/starbucks/starbucks-menu
 
 
-##Transformation Process 
+#Transformation Process 
 
 For the transformation phase, we needed to do some basic cleaning so that the files can be
 linked to each other, in addition to deciding what columns to include/exclude, and perform
@@ -54,7 +54,7 @@ The restaurants, categories and menu items dictionary were saved as data frames 
 
 We dropped the varchar columns from the main data frame and exported the final clean_combined_df to a csv file.
 
-##Loading Process
+#Loading Process
 
 *SQLite Phase:*
 
@@ -69,5 +69,3 @@ A "loading file" was created in jupyter notebook to create the engine, automap t
 Queries were created to insure the database is working correctly.
 
 First, items were listed, then final queries were created to fully test the ability to query and display the data effectively.
-
-
