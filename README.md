@@ -23,7 +23,7 @@ some joins. Below are the specific steps that our group followed during this pro
 
 *Pandas Phase:*
 
-Read the csv file into the jupyter notebook as dataframes.
+* Read the csv file into the jupyter notebook as dataframes.
 
 * Because the type of the database is relational and we wanted to avoid reducing the database to the table with fewest columns, the McDonald's table was used as the general scheme for the database; as it was  the table with more information columns.
 
